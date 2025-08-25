@@ -1,0 +1,9 @@
+.todo-title {
+  font-weight: 100;
+  font-size: clamp(72px, 12vw, 140px);
+  line-height: 1;
+  text-align: center;
+  color: rgba(168,168,168,.474);
+  letter-spacing: -2px;
+  margin: 40px 0 20px;
+}
