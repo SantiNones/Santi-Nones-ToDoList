@@ -57,13 +57,15 @@ const ToDoList = () => {
                     className="list-group-item d-flex justify-content-between align-items-center"
                   >
                     {todo.text}
-                    <button
+                  <div className="deleteButton">
+                      <button
                       type="button"
-                      className="btn btn-sm btn-link text-secondary"
+                      className="btn btn-sm btn-link text-secondary delete-btn"
                       onClick={() => handleDelete(todo.id)}
-                    >
-                      &times;
-                    </button>
+                      >
+                        &times;
+                      </button>
+                  </div>
                   </li>
                 ))}
               </ul>

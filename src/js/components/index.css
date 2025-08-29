@@ -7,3 +7,13 @@
   letter-spacing: -2px;
   margin: 40px 0 20px;
 }
+
+li.list-group-item .deleteButton {
+  opacity: 0;
+  visibility: hidden;
+}
+
+li.list-group-item:hover .deleteButton {
+  opacity: 1;
+  visibility: visible;
+}
